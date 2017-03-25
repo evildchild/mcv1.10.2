@@ -48,9 +48,8 @@ These are docker images for [Vanilla Minecraft](https://minecraft.net) running o
 ## Available environment variables
 
 ```bash
-ENV SERVER_MAXHEAP 2048M
-ENV SERVER_MINHEAP 512M
-ENV SERVER_MAXPERM 128M
+ENV SERVER_MAXHEAP 3072M
+ENV SERVER_MINHEAP 1024M
 ENV SERVER_OPTS nogui
 ENV SERVER_MOTD Minecraft
 ENV SERVER_RCONPWD webhippie
